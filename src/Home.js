@@ -13,6 +13,7 @@ function Home() {
 				<Button
 					variant='contained'
 					color='primary'
+					marginTop='5px'
 					onClick={() => app.auth().signOut()}>
 					Sign Out
 				</Button>
